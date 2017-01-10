@@ -1,0 +1,290 @@
+The only bug present is that the homepage is currently stuck in an infinite
+loop. There was not time to debug this problem. However files sync across 
+multiple users
+
+
+README!!!!!!!!!!!!!!!!!!!
+
+To COMPILE: g++ *.cpp -o <enter preferred name> -std=c++11
+
+to run: ./<preferred name>
+
+SCRIPT:
+
+Enter Username: Bob
+-------------------------------------
+   Welcome Back to Aubiebook, Bob
+-------------------------------------
+Post (0), Wall page (1), Home page (2), Add friend (3),
+Follow hashtag (4), Quit (5)
+Enter option: 0
+Enter Message: 
+Hello
+debug 2SYS026Hiya
+%[25]%Hello$^Hiya
+$$
+
+-------------------------------------
+   Welcome Back to Aubiebook, Bob
+-------------------------------------
+Post (0), Wall page (1), Home page (2), Add friend (3),
+Follow hashtag (4), Quit (5)
+Enter option: 1
+%[25]%Hello$^Hiya%[24]%asdf$^dasdf
+
+-------------------------------------
+              Bob's Wall
+-------------------------------------
+
+
+Hello
+Hiya
+
+asdf
+dasdf
+
+Print more? (y/n): n
+
+-------------------------------------
+   Welcome Back to Aubiebook, Bob
+-------------------------------------
+Post (0), Wall page (1), Home page (2), Add friend (3),
+Follow hashtag (4), Quit (5)
+Enter option: 1
+%[25]%Hello$^Hiya%[24]%asdf$^dasdf
+
+-------------------------------------
+              Bob's Wall
+-------------------------------------
+
+
+Hello
+Hiya
+
+asdf
+dasdf
+
+Print more? (y/n): y
+
+-------------------------------------
+              Bob's Wall
+-------------------------------------
+
+
+-------------------------------------
+   Welcome Back to Aubiebook, Bob
+-------------------------------------
+Post (0), Wall page (1), Home page (2), Add friend (3),
+Follow hashtag (4), Quit (5)
+Enter option: 3
+Enter friend's name: Jane
+User does not exist or is already a friend!
+-------------------------------------
+   Welcome Back to Aubiebook, Bob
+-------------------------------------
+Post (0), Wall page (1), Home page (2), Add friend (3),
+Follow hashtag (4), Quit (5)
+Enter option: 3
+Enter friend's name: Bill
+-------------------------------------
+   Welcome Back to Aubiebook, Bob
+-------------------------------------
+Post (0), Wall page (1), Home page (2), Add friend (3),
+Follow hashtag (4), Quit (5)
+Enter option: 3
+Enter friend's name: Bill
+User does not exist or is already a friend!
+-------------------------------------
+   Welcome Back to Aubiebook, Bob
+-------------------------------------
+Post (0), Wall page (1), Home page (2), Add friend (3),
+Follow hashtag (4), Quit (5)
+Enter option: 4
+Enter Hash to follow: Hahahaha
+-------------------------------------
+   Welcome Back to Aubiebook, Bob
+-------------------------------------
+Post (0), Wall page (1), Home page (2), Add friend (3),
+Follow hashtag (4), Quit (5)
+Enter option: 1
+%[25]%Hello$^Hiya%[24]%asdf$^dasdf
+
+-------------------------------------
+              Bob's Wall
+-------------------------------------
+
+
+Hello
+Hiya
+
+asdf
+dasdf
+
+Print more? (y/n): y
+
+-------------------------------------
+              Bob's Wall
+-------------------------------------
+
+
+-------------------------------------
+   Welcome Back to Aubiebook, Bob
+-------------------------------------
+Post (0), Wall page (1), Home page (2), Add friend (3),
+Follow hashtag (4), Quit (5)
+Enter option: 0
+Enter Message: 
+asdfsdf
+debug 2SYS-37520070427$$
+
+-------------------------------------
+   Welcome Back to Aubiebook, Bob
+-------------------------------------
+Post (0), Wall page (1), Home page (2), Add friend (3),
+Follow hashtag (4), Quit (5)
+Enter option: 1
+%[26]%asdfsdf%[25]%Hello$^Hiya%[24]%asdf$^dasdf
+
+-------------------------------------
+              Bob's Wall
+-------------------------------------
+
+
+asdfsdf
+
+Hello
+Hiya
+
+asdf
+dasdf
+
+Print more? (y/n): n
+
+-------------------------------------
+   Welcome Back to Aubiebook, Bob
+-------------------------------------
+Post (0), Wall page (1), Home page (2), Add friend (3),
+Follow hashtag (4), Quit (5)
+Enter option: 0
+Enter Message: 
+asfasfasdf
+debug 2SYS2728$$
+
+-------------------------------------
+   Welcome Back to Aubiebook, Bob
+-------------------------------------
+Post (0), Wall page (1), Home page (2), Add friend (3),
+Follow hashtag (4), Quit (5)
+Enter option: 1
+%[27]%asfasfasdf%[26]%asdfsdf%[25]%Hello$^Hiya%[24]%asdf$^dasdf
+
+-------------------------------------
+              Bob's Wall
+-------------------------------------
+
+
+asfasfasdf
+
+asdfsdf
+
+Hello
+Hiya
+
+Print more? (y/n): y
+
+-------------------------------------
+              Bob's Wall
+-------------------------------------
+
+
+asdf
+dasdf
+
+-------------------------------------
+   Welcome Back to Aubiebook, Bob
+-------------------------------------
+Post (0), Wall page (1), Home page (2), Add friend (3),
+Follow hashtag (4), Quit (5)
+Enter option: 5
+walker@ubuntu:~/git-repos/COMP2710/lab_021$ 
+
+
+   Welcome Back to Aubiebook, Jane
+-------------------------------------
+Post (0), Wall page (1), Home page (2), Add friend (3),
+Follow hashtag (4), Quit (5)
+Enter option: 3
+Enter friend's name: Bill
+-------------------------------------
+   Welcome Back to Aubiebook, Jane
+-------------------------------------
+Post (0), Wall page (1), Home page (2), Add friend (3),
+Follow hashtag (4), Quit (5)
+Enter option: 3
+Enter friend's name: Morose
+User does not exist or is already a friend!
+-------------------------------------
+   Welcome Back to Aubiebook, Jane
+-------------------------------------
+Post (0), Wall page (1), Home page (2), Add friend (3),
+Follow hashtag (4), Quit (5)
+Enter option: 3
+Enter friend's name: Bill
+User does not exist or is already a friend!
+-------------------------------------
+   Welcome Back to Aubiebook, Jane
+-------------------------------------
+Post (0), Wall page (1), Home page (2), Add friend (3),
+Follow hashtag (4), Quit (5)
+Enter option: 4
+Enter Hash to follow: asdfasdf
+-------------------------------------
+   Welcome Back to Aubiebook, Jane
+-------------------------------------
+Post (0), Wall page (1), Home page (2), Add friend (3),
+Follow hashtag (4), Quit (5)
+Enter option: 1
+
+
+-------------------------------------
+              Jane's Wall
+-------------------------------------
+
+
+Print more? (y/n): n
+
+-------------------------------------
+   Welcome Back to Aubiebook, Jane
+-------------------------------------
+Post (0), Wall page (1), Home page (2), Add friend (3),
+Follow hashtag (4), Quit (5)
+Enter option: 0
+Enter Message: 
+asdfasdf
+debug 2SYS-52370394429$$
+
+-------------------------------------
+   Welcome Back to Aubiebook, Jane
+-------------------------------------
+Post (0), Wall page (1), Home page (2), Add friend (3),
+Follow hashtag (4), Quit (5)
+Enter option: 1
+%[28]%asdfasdf
+
+-------------------------------------
+              Jane's Wall
+-------------------------------------
+
+
+asdfasdf
+
+Print more? (y/n): n
+
+-------------------------------------
+   Welcome Back to Aubiebook, Jane
+-------------------------------------
+Post (0), Wall page (1), Home page (2), Add friend (3),
+Follow hashtag (4), Quit (5)
+Enter option: 5
+
+

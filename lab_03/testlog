@@ -1,0 +1,47 @@
+-----------------------------------------
+ 	 Welcome to The Maze Game! 
+-----------------------------------------
+------------------------------
+You are currently on Node A1
+------------------------------
+You can go: East 
+What is your choice? (n, e, s, w, q (to quit))
+e
+------------------------------
+You are currently on Node B1
+------------------------------
+You can go: North 
+What is your choice? (n, e, s, w, q (to quit))
+n
+------------------------------
+You are currently on Node B2
+------------------------------
+You can go: East South West
+What is your choice? (n, e, s, w, q (to quit))
+n
+Not a valid response.
+What is your choice? (n, e, s, w, q (to quit))
+asdf
+Not a valid response.
+What is your choice? (n, e, s, w, q (to quit))
+1
+Not a valid response.
+What is your choice? (n, e, s, w, q (to quit))
+45
+Not a valid response.
+What is your choice? (n, e, s, w, q (to quit))
+@!#$
+Not a valid response.
+What is your choice? (n, e, s, w, q (to quit))
+e
+------------------------------
+You are currently on Node C2
+------------------------------
+You can go: North South West
+What is your choice? (n, e, s, w, q (to quit))
+1
+Not a valid response.
+What is your choice? (n, e, s, w, q (to quit))
+q
+
+//segmentation fault if the file is wrong but otherwise everything is working correctly
